@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,500&display=swap'); 
+
+*{
+    font-family: "Open sans";
+    text-transform: uppercase;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+}
+
+.menu {
+    width: 20%;
+    background-color: aqua;
+    
+}
+
+.menu ul{
+    list-style: none;
+    padding: 10px 20px 0px;
+    line-height: 2rem;
+}
+
+.menu ul span{
+    line-height: 1rem;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.paginas li :hover{
+    color: red;
+}
+
+fieldset{
+    border-radius: 20px;
+    line-height: 1rem;
+}
+legend{
+    padding: 20px;
+    font-weight: bold;
+}
+
+.header {
+    min-height: 150px;
+    text-align: center;
+    
+}
+
+.azul-claro{
+    background-color: rgb(128, 218, 248);
+}
+
+.azul{
+    background-color: #0c4d97;
+}
+
+.azul-claro-escuro{
+    background-color: #0054b4;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.conteudo{
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.block{
+    display: block;
+}
+
+.content ,.conteudo .sobre{
+    padding: 30px;
+    text-align: justify;
+}
+
+.footer {
+    border-top: 1px solid rgb(200, 200, 200);
+    background-color: rgb(240, 240, 240);
+    min-height: 150px;
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.maps {
+    border: solid 0 black;
+
+}
+
+table{
+    text-align: center;
+    border: 1px solid lightgray;
+    width: 700px;
+    height: auto;
+}
+
+td{
+    border: 1px solid lightgray;
+}
+
+tr:nth-child(even){
+    background-color: #e7e7e7;
+}
+
+tr:hover{
+    background-color: #63a2eb88;
+    cursor: pointer;
+}
+
+
+.contato form{
+    margin: 50px;
+    line-height: 2rem;
+}
+
+.entrada {
+    width: 60%;
+}
+
+.contato label {
+    font-weight: 600;
+}
+
+.enviar, .resetar{
+    width: 20%;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-items: center;
+}
+
+.enviar{
+    background-color: #0054b4;
+    color: white;
+}
+
+.resetar{
+    background-color: red;
+    color: #f1f1f1;
+
+}
